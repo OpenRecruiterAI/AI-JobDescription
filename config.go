@@ -14,6 +14,6 @@ type Config struct {
 	DataBaseType Type
 }
 
-type Job struct {
+type JobConfig struct {
 	DB *gorm.DB
 }
